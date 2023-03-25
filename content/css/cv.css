@@ -1,0 +1,263 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body, main {
+	height: 100%;
+}
+
+html {
+	user-select: none;
+}
+
+main {
+	width: 750px;
+
+	display: table-cell;
+	vertical-align: middle;
+}
+
+body {
+    display: table;
+    overflow: hidden;
+ 
+    margin: auto;
+}
+
+caption {
+    color: #6e8759;
+    font-size: 30px;
+
+    background-color: #ffffb7;
+
+    margin-bottom: -10px;
+}
+
+label {
+	cursor: default;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+legend {
+	text-align: right;
+
+	font-family: Comic Sans MS;
+
+	padding-left: 5px;
+	padding-right: 5px;
+	border-color: #516258;
+}
+
+fieldset {
+	width: 770px;
+
+    padding: 15px;
+    padding-top: 2px;
+    padding-bottom: 7px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px
+}
+
+summary {
+    outline: none;
+    
+    margin-left: 5px;
+    margin-top: -4px;
+    margin-bottom: -9px;
+}
+
+.tableone {
+    width: 750px;
+
+    zoom: 80%;
+
+    background-color: #ffffd1;
+
+    border-radius: 15px;
+}
+
+select[multiple]::-webkit-scrollbar {
+	width: 15px;
+
+	border-radius: 10px;
+}
+
+select[multiple]::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+select[multiple]::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+}
+
+.img-1 {
+    width: 90px;
+
+    display: none;
+
+    border-radius: 30px;
+}
+
+.first th {
+	text-align: right;
+
+	display: table-cell;
+}
+
+.first th::after {
+	content:":";
+}
+
+.first {
+	display: table-cell;
+
+	padding: 1px;
+}
+
+.first-pos {
+    position: absolute;
+    left: 440px;
+}
+
+.first-post {
+	position: relative;
+	left: 22px;
+}
+
+.first input {
+	width: 245px;
+	height: 18px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+.first input[type=date] {
+	height: 18px;
+}
+
+.first select {
+	width: 256px;
+	height: 19px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.second {
+	display: table-cell;
+}
+
+.second-pos {
+	position: absolute;
+    left: 452px;
+
+	display: table-cell;
+}
+
+.second th {
+	text-align: right;
+}
+
+.second-pos th {
+	text-align: right;
+}
+
+.second th::after {
+	content:":";
+}
+
+.second-pos th::after {
+	content:":";
+}
+
+.second-pos tr:nth-child(n + 5) th::after {
+	content: none;
+}
+
+.second input {
+	width: 245px;
+	height: 18px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.second-pos input {
+	width: 241px;
+    height: 18px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.second-pos select {
+	width: 253px;
+	height: 21px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.second select {
+	width: 253px;
+	height: 21px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.third th {
+	text-align: center;
+}
+
+.third select {
+	width: 94px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	outline: none;
+	margin: 2px;	
+}
+
+.third input {
+	width: 30px;
+
+	outline: none;
+}
+
+.third td {
+	padding: 2px;
+}
+
+.fourth {
+	margin: 2px;
+	padding-left: 10px;
+}
+
+.th-pad {
+	padding-left: 50px;
+}
+
+.fourth select {
+	width: 160px;
+	height: 20px;
+
+	padding-left: 10px;
+	border-radius: 10px;
+	outline: none;
+	margin: 1px;	
+}

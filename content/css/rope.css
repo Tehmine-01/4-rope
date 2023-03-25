@@ -1,0 +1,168 @@
+.cup:hover {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.tableone, .rope-img-left, .rope-img-right {
+    position: relative;
+    animation-name: rope;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes rope {
+    0% {top: -400px;}
+    5% {top: -355px;}
+    10% {top: -305px;}
+    15% {top: -255px;}
+    20% {top: -205px;}
+    25% {top: -155px;}
+    30% {top: -105px;}
+    35% {top: -55px;}
+    40% {top: -5px;}
+    45% {top: 45px;}
+    50% {top: 65px;}
+    55% {top: 45px;}
+    60% {top: 0px;}
+}
+
+body {
+    background-image: url(../img/background-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+th {
+	color: #324026;
+}
+
+select[multiple]::-webkit-scrollbar {
+	box-shadow: inset 0 0 5px grey;
+}
+
+select[multiple]::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+}
+
+select[multiple]::-webkit-scrollbar-thumb {
+    background: #89CFF0;
+}
+
+span:nth-of-type(10){
+	letter-spacing: 25px;
+}
+
+.plate-img {
+	width: 150px;
+	height: 150px;
+}
+
+.plate {
+	position: absolute;
+	z-index: 0;
+
+	display: none;
+
+	margin-left: -161px;
+	margin-top: 460px;	
+}
+
+.cup-img{
+	width: 100px;
+	height: 100px;
+}
+
+.cup  {
+	position: absolute;
+	z-index: 1;
+
+	display: none;
+
+	margin-left: -136px;
+	margin-top: 482px;
+}
+
+.rope-img-left {
+    width: 70px;
+    height: 50vh;
+
+    position: relative;
+    left: 260px; 
+
+    margin-top:-90px;
+}
+
+.rope-img-right {
+    width: 70px;
+    height: 50vh;
+
+    position: relative;
+    left: 570px;
+
+    margin-top:-90px;
+}
+
+.img-rope {
+    width: 100px;
+ 
+    border-radius: 30px;
+}
+
+.first input {
+    background: #89CFF0;
+
+    border: 1px solid #c0c0c0;
+}
+
+.first select {
+    background: #89CFF0;
+    border: 1px solid #c0c0c0;
+}
+
+.second input {
+    background: #89CFF0;
+
+    border: 1px solid #c0c0c0;
+}
+
+.second-pos input {
+    background: #89CFF0;
+
+    border: 1px solid #c0c0c0;
+}
+
+.second-pos select {
+    background: #89CFF0;
+
+    border: 1px solid #c0c0c0;
+}
+
+.second select {
+    background: #89CFF0;
+
+    border: 1px solid #c0c0c0;
+}
+
+.third select {
+	color: #324026;
+}
+
+.fourth select {
+    background: #89CFF0;
+
+    border: 1px solid #c0c0c0;
+}
